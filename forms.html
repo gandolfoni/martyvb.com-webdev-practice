@@ -26,7 +26,7 @@
         </p>
         <p>
             <label for="number">Enter a Number</label>
-            <input id="number" type="number" placeholder="enter a number" />
+            <input id="number" type="number" placeholder="enter a number" name="num" min="1" max="10000000000" />
         </p>
         <p>
             <label for="month">Enter month</label>
@@ -102,6 +102,18 @@
 
 
         <hr>
+
+        <p>
+            <label for="Keystone">Keystone Difficulty:</label>
+            <input type="range" id="Keystone" min="1" max="25" value="14" name="Key_level">
+        </p>
+
+
+        <p>
+            <label for="Questions?">Any Questions?</label>
+            <br>
+            <textarea id="Questions?" rows="10" name="Questions?" cols="40"></textarea>
+        </p>
 
         <button>Submit</button>
 </body>
