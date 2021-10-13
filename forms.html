@@ -22,7 +22,7 @@
         </p>
         <p>
             <label for="color">Choose a color</label>
-            <input id="color" type="color" id="color" />
+            <input id="color" type="color" name="color" />
         </p>
         <p>
             <label for="number">Enter a Number</label>
@@ -44,78 +44,72 @@
     </form>
     <h3>Search Google</h3>
     <form action="https://www.google.com/search">
-        <input type="text" name "q">
+        <input type="text" name="q" />
         <button>Search Google</button>
     </form>
 
-
     <h3>Search Youtube</h3>
     <form action="https://www.youtube.com/results">
-        <input type="text" name="search_query">
+        <input type="text" name="search_query" />
         <button>Search Youtube</button>
 
         <h2>Checkbox inputs</h2>
         <form action="/birds">
-            <input type="checkbox" name="agree to tos" id="agree" checked>
+            <input type="checkbox" name="agree to tos" id="agree" checked />
             <label for="agree">I agree to everything</label>
             <button>Submit</button>
         </form>
 
-        <hr>
-
+        <hr />
 
         <p>
             <label for="xs">XS</label>
-            <input type="radio" name="extra-small" id="xs">
+            <input type="radio" name="extra-small" id="xs" />
             <label for="s">S</label>
-            <input type="radio" name="small" id="s">
+            <input type="radio" name="small" id="s" />
             <label for="m">M</label>
-            <input type="radio" name="medium" id="m">
+            <input type="radio" name="medium" id="m" />
             <label for="l">L</label>
-            <input type="radio" name="large" id="l">
+            <input type="radio" name="large" id="l" />
         </p>
 
-
-        <p>
-        </p>
+        <p></p>
         <label for="">Select a Role</label>
         <select name="Role" id="Role-Select">
-                <option value="">--Please Select a Role--</option>
-                <option value="Tank">Tank</option>
-                <option value="DPS">DPS</option>
-                <option value="Healer">Healer</option>
-        </select>
+        <option value="">--Please Select a Role--</option>
+        <option value="Tank">Tank</option>
+        <option value="DPS">DPS</option>
+        <option value="Healer">Healer</option>
+      </select>
 
-        <p>
-        </p>
+        <p></p>
         <label for="">Pick a Class</label>
         <select name="Class" id="Class-Select">
-                <option value="">--Please Choose a Class--</option>
-                <option value="Paladin">Paladin</option>
-                <option value="Druid">Druid</option>
-                <option value="Rogue">Rogue</option>
-                <option value="Mage">Mage</option>
-                <option value="Priest">Priest</option>
-                <option value="Warlock">Warlock</option>
-                <option value="Shaman">Shaman</option>
-        </select>
+        <option value="">--Please Choose a Class--</option>
+        <option value="Paladin">Paladin</option>
+        <option value="Druid">Druid</option>
+        <option value="Rogue">Rogue</option>
+        <option value="Mage">Mage</option>
+        <option value="Priest">Priest</option>
+        <option value="Warlock">Warlock</option>
+        <option value="Shaman">Shaman</option>
+      </select>
 
-
-        <hr>
+        <hr />
 
         <p>
             <label for="Keystone">Keystone Difficulty:</label>
-            <input type="range" id="Keystone" min="1" max="25" value="14" name="Key_level">
+            <input type="range" id="Keystone" min="1" max="25" value="14" name="Key_level" />
         </p>
-
 
         <p>
             <label for="Questions?">Any Questions?</label>
-            <br>
+            <br />
             <textarea id="Questions?" rows="10" name="Questions?" placeholder="Start typing here..." cols="40"></textarea>
         </p>
 
         <button>Submit</button>
+    </form>
 </body>
 
 </html>
