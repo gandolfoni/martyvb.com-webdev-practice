@@ -1,5 +1,12 @@
-h1 {
-  color: olive;
+body {
+  background-color: grey;
+}
+
+h1,
+h2,
+h3 {
+  color: white;
+  background-color: black;
 }
 
 p {
@@ -12,12 +19,7 @@ button {
   background-color: grey;
 }
 
-h2 {
-  color: white;
-  background-color: black;
-}
-
-h3 {
+label {
   color: white;
   background-color: black;
 }
