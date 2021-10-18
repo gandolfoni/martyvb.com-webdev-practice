@@ -1,0 +1,21 @@
+h1 {
+  color: green;
+}
+
+h2 {
+  color: magenta;
+}
+
+p {
+  color: white;
+  background-color: black;
+}
+
+button {
+  color: #0f5679;
+  background-color: white;
+}
+
+body {
+  background-color: white;
+}
